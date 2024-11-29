@@ -30,8 +30,8 @@ namespace SmartPed
                 bom = "Boa tarde!";
             }
 
-            LblSaidaEmail.Text = $"Assunto: Criação de FTP com API: {Box_CNPJ.Text}\n\n{bom}.\nPrecisamos criar FTP para envio de pedido integrado:" +
-                $"\nDados do Cliente: {Box_Razao.Text}\nCNPJ: {Box_CNPJ.Text}\nCódigo do Cliente: {Box_Codigo.Text}\nLayout: 25\nAtt;";
+            LblSaidaEmail.Text = $"Assunto: Criação de FTP: {Box_CNPJ.Text}\n\n{bom}.\nPrecisamos configurar FTP para envio de pedido pelo SmartPed:" +
+                $"\nSegue dados abaixo:\n{Box_Razao.Text}\nCNPJ: {Box_CNPJ.Text}\nCódigo do Cliente: {Box_Codigo.Text}\nLayout Trier\nAtt;";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,6 +42,11 @@ namespace SmartPed
         private void Btn_Limpar_Click(object sender, EventArgs e)
         {
             LblSaidaEmail.Text = "";
+        }
+
+        private void FRM_ANB_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

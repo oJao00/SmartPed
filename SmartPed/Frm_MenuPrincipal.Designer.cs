@@ -36,7 +36,7 @@
             // Btn_ANB
             // 
             this.Btn_ANB.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ANB.Location = new System.Drawing.Point(182, 196);
+            this.Btn_ANB.Location = new System.Drawing.Point(92, 132);
             this.Btn_ANB.Name = "Btn_ANB";
             this.Btn_ANB.Size = new System.Drawing.Size(123, 74);
             this.Btn_ANB.TabIndex = 0;
@@ -47,7 +47,7 @@
             // Btn_GAM
             // 
             this.Btn_GAM.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_GAM.Location = new System.Drawing.Point(362, 197);
+            this.Btn_GAM.Location = new System.Drawing.Point(272, 133);
             this.Btn_GAM.Name = "Btn_GAM";
             this.Btn_GAM.Size = new System.Drawing.Size(123, 74);
             this.Btn_GAM.TabIndex = 1;
@@ -58,7 +58,7 @@
             // Btn_Profarma
             // 
             this.Btn_Profarma.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Profarma.Location = new System.Drawing.Point(537, 197);
+            this.Btn_Profarma.Location = new System.Drawing.Point(447, 133);
             this.Btn_Profarma.Name = "Btn_Profarma";
             this.Btn_Profarma.Size = new System.Drawing.Size(123, 74);
             this.Btn_Profarma.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(854, 488);
+            this.ClientSize = new System.Drawing.Size(662, 338);
             this.Controls.Add(this.Btn_Profarma);
             this.Controls.Add(this.Btn_GAM);
             this.Controls.Add(this.Btn_ANB);

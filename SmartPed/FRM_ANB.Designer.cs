@@ -45,7 +45,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(358, 61);
+            this.label1.Location = new System.Drawing.Point(307, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(170, 22);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(235, 122);
+            this.label2.Location = new System.Drawing.Point(125, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 18);
             this.label2.TabIndex = 1;
@@ -63,14 +63,14 @@
             // 
             // Box_Razao
             // 
-            this.Box_Razao.Location = new System.Drawing.Point(346, 120);
+            this.Box_Razao.Location = new System.Drawing.Point(236, 94);
             this.Box_Razao.Name = "Box_Razao";
             this.Box_Razao.Size = new System.Drawing.Size(263, 20);
             this.Box_Razao.TabIndex = 2;
             // 
             // Box_CNPJ
             // 
-            this.Box_CNPJ.Location = new System.Drawing.Point(346, 173);
+            this.Box_CNPJ.Location = new System.Drawing.Point(236, 147);
             this.Box_CNPJ.Name = "Box_CNPJ";
             this.Box_CNPJ.Size = new System.Drawing.Size(263, 20);
             this.Box_CNPJ.TabIndex = 4;
@@ -79,7 +79,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(286, 175);
+            this.label3.Location = new System.Drawing.Point(176, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 18);
             this.label3.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             // Box_Codigo
             // 
-            this.Box_Codigo.Location = new System.Drawing.Point(346, 224);
+            this.Box_Codigo.Location = new System.Drawing.Point(236, 198);
             this.Box_Codigo.Name = "Box_Codigo";
             this.Box_Codigo.Size = new System.Drawing.Size(263, 20);
             this.Box_Codigo.TabIndex = 6;
@@ -96,7 +96,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(201, 226);
+            this.label4.Location = new System.Drawing.Point(91, 200);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(139, 18);
             this.label4.TabIndex = 5;
@@ -106,7 +106,7 @@
             // 
             this.LblSaidaEmail.AutoSize = true;
             this.LblSaidaEmail.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSaidaEmail.Location = new System.Drawing.Point(251, 287);
+            this.LblSaidaEmail.Location = new System.Drawing.Point(141, 261);
             this.LblSaidaEmail.Name = "LblSaidaEmail";
             this.LblSaidaEmail.Size = new System.Drawing.Size(0, 18);
             this.LblSaidaEmail.TabIndex = 7;
@@ -114,7 +114,7 @@
             // Btn_GerarEmail
             // 
             this.Btn_GerarEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_GerarEmail.Location = new System.Drawing.Point(707, 155);
+            this.Btn_GerarEmail.Location = new System.Drawing.Point(597, 129);
             this.Btn_GerarEmail.Name = "Btn_GerarEmail";
             this.Btn_GerarEmail.Size = new System.Drawing.Size(139, 52);
             this.Btn_GerarEmail.TabIndex = 8;
@@ -125,7 +125,7 @@
             // Btn_Limpar
             // 
             this.Btn_Limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Limpar.Location = new System.Drawing.Point(740, 398);
+            this.Btn_Limpar.Location = new System.Drawing.Point(630, 372);
             this.Btn_Limpar.Name = "Btn_Limpar";
             this.Btn_Limpar.Size = new System.Drawing.Size(78, 27);
             this.Btn_Limpar.TabIndex = 9;
@@ -136,7 +136,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(158, 282);
+            this.button1.Location = new System.Drawing.Point(48, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 29);
             this.button1.TabIndex = 10;
@@ -148,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 521);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Btn_Limpar);
             this.Controls.Add(this.Btn_GerarEmail);
@@ -163,6 +163,7 @@
             this.Name = "FRM_ANB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Email ANB";
+            this.Load += new System.EventHandler(this.FRM_ANB_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
